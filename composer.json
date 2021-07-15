@@ -1,0 +1,30 @@
+{
+    "name": "wss0823/php-service-report",
+    "description": "Uniondrug service report Component for uniondrug/framework",
+    "keywords": [
+        "phalcon",
+        "crons",
+        "report"
+    ],
+    "license": "proprietary",
+    "type": "library",
+    "authors": [
+        {
+            "name": "wss",
+            "email": "wss0823@126.ccom"
+        }
+    ],
+    "require": {
+        "uniondrug/framework": "^2.0",
+        "uniondrug/phar": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Uniondrug\\PhpServiceReport\\": "src/"
+        }
+    },
+    "config": {
+        "preferred-install": "dist",
+        "sort-packages": true
+    }
+}
